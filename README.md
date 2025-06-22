@@ -13,4 +13,12 @@ i recommend max ~13x13 (~18x18 for nitro) bc discord WILL cut your message off.
 ![Screenshot_20250622_021536](https://github.com/user-attachments/assets/a0d10c27-6b98-4586-b635-6a4df9b3d836)
 
 # TODO
-none
+```
+image = image.resize(image_size, Image.LANCZOS)
+image = image.convert('RGB')
+
+enhancer = ImageEnhance.Sharpness(image)
+image = enhancer.enhance(1.2)
+```
+
+oklab
