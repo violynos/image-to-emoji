@@ -2,7 +2,7 @@
 turn images into discord emoji walls
 
 requires pil (python imaging lib or pillow i think tbh idk dont quote me)
-## you only need the main.py file. the testing folder is just me mesing around. it has old files and jason momoa
+## you only need the main.py and emoji.txt file. the testing folder is just me mesing around. it has old files and jason momoa
 
 usage:
 python main.py your_image.png
